@@ -2,7 +2,7 @@
 using System.IO;
 using Microsoft.Azure.DataLake.Store;
 
-namespace Storage.Net.Microsoft.Azure.DataLake.Store.Gen1
+namespace Storage.NetCore.Microsoft.Azure.DataLake.Store.Gen1
 {
    class AdlsWriteableStream : Stream
    {

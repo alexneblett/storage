@@ -1,10 +1,10 @@
 ﻿using Google.Apis.Auth.OAuth2;
-using Storage.Net.Blobs;
-using Storage.Net.Gcp.CloudStorage;
-using Storage.Net.Gcp.CloudStorage.Blobs;
+using Storage.NetCore.Blobs;
+using Storage.NetCore.Gcp.CloudStorage;
+using Storage.NetCore.Gcp.CloudStorage.Blobs;
 using NetBox.Extensions;
 
-namespace Storage.Net
+namespace Storage.NetCore
 {
    /// <summary>
    /// Factory methods

@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Text;
 using Objects = Google.Apis.Storage.v1.Data.Objects;
 using Object = Google.Apis.Storage.v1.Data.Object;
-using Storage.Net.Blobs;
+using Storage.NetCore.Blobs;
 using NetBox.Extensions;
 using Google.Api.Gax;
 using System.Threading.Tasks;
 using System.Collections;
 
-namespace Storage.Net.Gcp.CloudStorage.Blobs
+namespace Storage.NetCore.Gcp.CloudStorage.Blobs
 {
    static class GConvert
    {
@@ -75,10 +75,10 @@ namespace Storage.Net.Gcp.CloudStorage.Blobs
          var result = new List<Blob>();
 
 #pragma warning disable IDE0008 // Use explicit type (async enumerator conflict)
-         using(var enumerator = pae.GetEnumerator())
+         await using(var enumerator = pae.GetAsyncEnumerator())
 #pragma warning restore IDE0008 // Use explicit type
          {
-            while(await enumerator.MoveNext().ConfigureAwait(false))
+            while(await enumerator.MoveNextAsync().ConfigureAwait(false))
             {
                Object go = enumerator.Current;
 

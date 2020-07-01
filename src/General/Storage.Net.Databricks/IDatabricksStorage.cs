@@ -1,8 +1,8 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.Azure.Databricks.Client;
-using Storage.Net.Blobs;
+using Storage.NetCore.Blobs;
 
-namespace Storage.Net.Databricks
+namespace Storage.NetCore.Databricks
 {
    /// <summary>
    /// Databricks specific functionality

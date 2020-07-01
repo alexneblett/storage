@@ -1,6 +1,6 @@
-﻿using Storage.Net.Blobs;
+﻿using Storage.NetCore.Blobs;
 
-namespace Storage.Net
+namespace Storage.NetCore
 {
    /// <summary>
    /// Virtual storage

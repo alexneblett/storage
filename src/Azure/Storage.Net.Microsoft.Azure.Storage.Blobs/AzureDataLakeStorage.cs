@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 using Azure.Storage;
 using Azure.Storage.Blobs;
 using Blobs;
-using Storage.Net.Blobs;
-using Storage.Net.Microsoft.Azure.Storage.Blobs.Gen2.Model;
+using Storage.NetCore.Blobs;
+using Storage.NetCore.Microsoft.Azure.Storage.Blobs.Gen2.Model;
 
-namespace Storage.Net.Microsoft.Azure.Storage.Blobs
+namespace Storage.NetCore.Microsoft.Azure.Storage.Blobs
 {
    class AzureDataLakeStorage : AzureBlobStorage, IAzureDataLakeStorage
    {

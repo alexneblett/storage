@@ -13,10 +13,10 @@ using Azure.Core.Pipeline;
 using Azure.Storage.Blobs;
 using Blobs.Gen2;
 using NetBox.Extensions;
-using Storage.Net;
-using Storage.Net.Blobs;
-using Storage.Net.Microsoft.Azure.Storage.Blobs;
-using Storage.Net.Microsoft.Azure.Storage.Blobs.Gen2.Model;
+using Storage.NetCore;
+using Storage.NetCore.Blobs;
+using Storage.NetCore.Microsoft.Azure.Storage.Blobs;
+using Storage.NetCore.Microsoft.Azure.Storage.Blobs.Gen2.Model;
 
 namespace Blobs
 {

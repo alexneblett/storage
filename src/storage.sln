@@ -18,7 +18,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{D1BF1B
 		..\doc\storagenet.vsdx = ..\doc\storagenet.vsdx
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Storage.Net", "Storage.Net\Storage.Net.csproj", "{E025A581-C3EC-42F9-A473-5F2544E28E30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Storage.NetCore", "Storage.Net\Storage.NetCore.csproj", "{E025A581-C3EC-42F9-A473-5F2544E28E30}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Azure", "Azure", "{E5D1DA80-E9FE-4965-A498-DFFC8ED70E40}"
 EndProject
@@ -28,7 +28,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{76FFA3B1-8
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataLakeGen1", "Azure\Storage.Net.Microsoft.Azure.DataLake.Store\DataLakeGen1.csproj", "{7A83138D-9EB1-4979-8349-FCBFB11385B5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Storage.Net.Amazon.Aws", "AWS\Storage.Net.Amazon.Aws\Storage.Net.Amazon.Aws.csproj", "{D0E01366-A330-416F-A363-2F29598DBC63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Storage.NetCore.Amazon.Aws", "AWS\Storage.Net.Amazon.Aws\Storage.NetCore.Amazon.Aws.csproj", "{D0E01366-A330-416F-A363-2F29598DBC63}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceBus", "Azure\Storage.Net.Microsoft.Azure.ServiceBus\ServiceBus.csproj", "{A1F41190-C131-441A-8B75-613369126F23}"
 EndProject
@@ -38,19 +38,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KeyVault", "Azure\Storage.N
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventHub", "Azure\Storage.Net.Microsoft.Azure.EventHub\EventHub.csproj", "{76050C11-E042-4806-8123-CB933B3B07F3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Storage.Net.Tests", "..\test\Storage.Net.Tests\Storage.Net.Tests.csproj", "{E37128DB-6CD7-4E06-8130-9BCEAD41DF5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Storage.NetCore.Tests", "..\test\Storage.Net.Tests\Storage.NetCore.Tests.csproj", "{E37128DB-6CD7-4E06-8130-9BCEAD41DF5D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Storage.Net.Tests.Integration", "..\test\Storage.Net.Tests.Integration\Storage.Net.Tests.Integration.csproj", "{B29220CF-8EB0-473F-88D6-D9A146AC6F39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Storage.NetCore.Tests.Integration", "..\test\Storage.Net.Tests.Integration\Storage.NetCore.Tests.Integration.csproj", "{B29220CF-8EB0-473F-88D6-D9A146AC6F39}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "General", "General", "{8098BD8F-AC7C-44CD-8F84-A514A5418C8C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Storage.Net.Ftp", "General\Storage.Net.Ftp\Storage.Net.Ftp.csproj", "{8054AA5F-F409-4594-BA40-566650FDA596}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Storage.NetCore.Ftp", "General\Storage.Net.Ftp\Storage.NetCore.Ftp.csproj", "{8054AA5F-F409-4594-BA40-566650FDA596}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Storage.Net.ConsoleRunner", "..\test\Storage.Net.ConsoleRunner\Storage.Net.ConsoleRunner.csproj", "{9AB03EC5-4D78-491D-824A-EEB3F01E7639}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Storage.NetCore.ConsoleRunner", "..\test\Storage.Net.ConsoleRunner\Storage.NetCore.ConsoleRunner.csproj", "{9AB03EC5-4D78-491D-824A-EEB3F01E7639}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GCP", "GCP", "{7060A53B-F046-4820-A143-1A05B8C14575}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Storage.Net.Gcp.CloudStorage", "GCP\Storage.Net.Gcp.CloudStorage\Storage.Net.Gcp.CloudStorage.csproj", "{A79A5CE0-83F3-44E2-A88D-D51D7A3EE8F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Storage.NetCore.Gcp.CloudStorage", "GCP\Storage.Net.Gcp.CloudStorage\Storage.NetCore.Gcp.CloudStorage.csproj", "{A79A5CE0-83F3-44E2-A88D-D51D7A3EE8F5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blobs", "Azure\Storage.Net.Microsoft.Azure.Storage.Blobs\Blobs.csproj", "{6F4E9CCC-DEB7-4D40-B2BA-4914171D26B2}"
 EndProject

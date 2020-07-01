@@ -8,11 +8,11 @@ using Amazon;
 using Amazon.Runtime;
 using Amazon.SQS;
 using Amazon.SQS.Model;
-using Storage.Net.Messaging;
+using Storage.NetCore.Messaging;
 using NetBox.Extensions;
 using System.Collections.Concurrent;
 
-namespace Storage.Net.Amazon.Aws.Messaging
+namespace Storage.NetCore.Amazon.Aws.Messaging
 {
    class AwsSQSMessenger : IMessenger
    {

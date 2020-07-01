@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace Storage.Net.Microsoft.Azure.Storage.Blobs.Gen2.Model
+namespace Storage.NetCore.Microsoft.Azure.Storage.Blobs.Gen2.Model
 {
    /// <summary>
    /// Access Control List entry

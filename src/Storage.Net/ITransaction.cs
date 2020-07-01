@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace Storage.Net
+namespace Storage.NetCore
 {
    /// <summary>
    /// Transaction abstraction

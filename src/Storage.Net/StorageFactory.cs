@@ -1,4 +1,4 @@
-﻿namespace Storage.Net
+﻿namespace Storage.NetCore
 {
    /// <summary>
    /// Helper syntax for creating instances of storage library objects

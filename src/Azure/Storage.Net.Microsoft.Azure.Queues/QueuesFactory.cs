@@ -1,9 +1,9 @@
 ﻿using System;
-using Storage.Net.ConnectionString;
-using Storage.Net.Messaging;
-using Storage.Net.Microsoft.Azure.Queues;
+using Storage.NetCore.ConnectionString;
+using Storage.NetCore.Messaging;
+using Storage.NetCore.Microsoft.Azure.Queues;
 
-namespace Storage.Net
+namespace Storage.NetCore
 {
    public static class QueuesFactory
    {

@@ -1,16 +1,16 @@
 ﻿using System;
 using System.IO;
-using Storage.Net.Blobs;
-using Storage.Net.Blobs.Files;
-using Storage.Net.Messaging;
-using Storage.Net.ConnectionString;
-using Storage.Net.Messaging.Large;
-using Storage.Net.Messaging.Files;
+using Storage.NetCore.Blobs;
+using Storage.NetCore.Blobs.Files;
+using Storage.NetCore.Messaging;
+using Storage.NetCore.ConnectionString;
+using Storage.NetCore.Messaging.Large;
+using Storage.NetCore.Messaging.Files;
 using System.IO.Compression;
-using Storage.Net.Blobs.Sinks.Impl;
-using Storage.Net.Blobs.Sinks;
+using Storage.NetCore.Blobs.Sinks.Impl;
+using Storage.NetCore.Blobs.Sinks;
 
-namespace Storage.Net
+namespace Storage.NetCore
 {
    /// <summary>
    /// Factory extension methods

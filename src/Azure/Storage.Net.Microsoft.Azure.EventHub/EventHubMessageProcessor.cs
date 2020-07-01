@@ -2,9 +2,9 @@
 using System.Threading.Tasks;
 using Microsoft.Azure.EventHubs;
 using Microsoft.Azure.EventHubs.Processor;
-using Storage.Net.Messaging;
+using Storage.NetCore.Messaging;
 
-namespace Storage.Net.Microsoft.Azure.EventHub
+namespace Storage.NetCore.Microsoft.Azure.EventHub
 {
    class EventHubMessageProcessor : IEventProcessorFactory
    {

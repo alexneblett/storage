@@ -1,14 +1,14 @@
 ﻿using Amazon;
 using Amazon.S3;
-using Storage.Net.Amazon.Aws.Messaging;
-using Storage.Net.Amazon.Aws.Blobs;
-using Storage.Net.Blobs;
-using Storage.Net.Messaging;
-using Storage.Net.Amazon.Aws;
-using Storage.Net.ConnectionString;
+using Storage.NetCore.Amazon.Aws.Messaging;
+using Storage.NetCore.Amazon.Aws.Blobs;
+using Storage.NetCore.Blobs;
+using Storage.NetCore.Messaging;
+using Storage.NetCore.Amazon.Aws;
+using Storage.NetCore.ConnectionString;
 using Amazon.S3.Transfer;
 
-namespace Storage.Net
+namespace Storage.NetCore
 {
    /// <summary>
    /// Factory class that implement factory methods for Amazon AWS implementation

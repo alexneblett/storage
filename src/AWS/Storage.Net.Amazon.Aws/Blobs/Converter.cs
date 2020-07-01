@@ -1,14 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using Amazon.S3;
 using Amazon.S3.Model;
 using NetBox.Extensions;
-using Storage.Net.Blobs;
+using Storage.NetCore.Blobs;
 
-namespace Storage.Net.Amazon.Aws.Blobs
+namespace Storage.NetCore.Amazon.Aws.Blobs
 {
    static class Converter
    {

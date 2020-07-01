@@ -1,7 +1,7 @@
-﻿using Storage.Net.Blobs;
-using Storage.Net.Messaging;
+﻿using Storage.NetCore.Blobs;
+using Storage.NetCore.Messaging;
 
-namespace Storage.Net.ConnectionString
+namespace Storage.NetCore.ConnectionString
 {
    /// <summary>
    /// Connection factory is responsible for creating storage instances from connection strings. It

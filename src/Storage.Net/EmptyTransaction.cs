@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace Storage.Net
+namespace Storage.NetCore
 {
    /// <summary>
    /// Transaction object which doesn't actually do anything

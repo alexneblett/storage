@@ -1,10 +1,10 @@
 ﻿using System;
 using Amazon;
-using Storage.Net.Blobs;
-using Storage.Net.Messaging;
+using Storage.NetCore.Blobs;
+using Storage.NetCore.Messaging;
 using Xunit;
 
-namespace Storage.Net.Tests.Integration.Messaging
+namespace Storage.NetCore.Tests.Integration.Messaging
 {
 
    #region [ Azure Storage Queue ]

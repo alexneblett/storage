@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Storage.Net.Blobs.Sinks
+namespace Storage.NetCore.Blobs.Sinks
 {
    class SinkedBlobStorage : IBlobStorage
    {

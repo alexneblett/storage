@@ -1,10 +1,10 @@
 ﻿using NetBox.Generator;
-using Storage.Net.Blobs;
-using Storage.Net.Messaging;
+using Storage.NetCore.Blobs;
+using Storage.NetCore.Messaging;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Storage.Net.Tests.Messaging
+namespace Storage.NetCore.Tests.Messaging
 {
     public class LargeMessagePublishingTest
     {

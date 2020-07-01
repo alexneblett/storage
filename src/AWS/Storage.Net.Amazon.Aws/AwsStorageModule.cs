@@ -1,10 +1,10 @@
 ﻿using System;
-using Storage.Net.Amazon.Aws.Blobs;
-using Storage.Net.Blobs;
-using Storage.Net.ConnectionString;
-using Storage.Net.Messaging;
+using Storage.NetCore.Amazon.Aws.Blobs;
+using Storage.NetCore.Blobs;
+using Storage.NetCore.ConnectionString;
+using Storage.NetCore.Messaging;
 
-namespace Storage.Net.Amazon.Aws
+namespace Storage.NetCore.Amazon.Aws
 {
    class AwsStorageModule : IExternalModule, IConnectionFactory
    {

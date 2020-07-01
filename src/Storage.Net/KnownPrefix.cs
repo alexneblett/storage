@@ -1,4 +1,4 @@
-﻿namespace Storage.Net
+﻿namespace Storage.NetCore
 {
    /// <summary>
    /// Known storage account prefixes

@@ -1,4 +1,4 @@
-﻿namespace Storage.Net
+﻿namespace Storage.NetCore
 {
    /// <summary>
    /// Generic error codes for storage operations

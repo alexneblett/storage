@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using Storage.Net.Blobs;
+using Storage.NetCore.Blobs;
 using System.Linq;
-using Storage.Net.Messaging;
+using Storage.NetCore.Messaging;
 
-namespace Storage.Net.ConnectionString
+namespace Storage.NetCore.ConnectionString
 {
    static class ConnectionStringFactory
    {

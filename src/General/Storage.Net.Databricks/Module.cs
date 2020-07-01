@@ -1,9 +1,9 @@
 ﻿using Newtonsoft.Json;
-using Storage.Net.Blobs;
-using Storage.Net.ConnectionString;
-using Storage.Net.Messaging;
+using Storage.NetCore.Blobs;
+using Storage.NetCore.ConnectionString;
+using Storage.NetCore.Messaging;
 
-namespace Storage.Net.Databricks
+namespace Storage.NetCore.Databricks
 {
    class Module : IExternalModule, IConnectionFactory
    {

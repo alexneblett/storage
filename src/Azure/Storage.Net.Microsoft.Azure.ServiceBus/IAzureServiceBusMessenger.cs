@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
-using Storage.Net.Messaging;
+using Storage.NetCore.Messaging;
 
-namespace Storage.Net.Microsoft.Azure.ServiceBus
+namespace Storage.NetCore.Microsoft.Azure.ServiceBus
 {
    /// <summary>
    /// Azure Service Bus specific information

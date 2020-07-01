@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Text.Json;
+﻿using System.Text.Json;
 using System.Threading.Tasks;
-using Storage.Net.Blobs;
+using Storage.NetCore.Blobs;
 using Xunit;
 
-namespace Storage.Net.Tests.Blobs
+namespace Storage.NetCore.Tests.Blobs
 {
    public class BlobStorageExtensionsTest
    {

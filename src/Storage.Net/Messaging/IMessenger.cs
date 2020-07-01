@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Storage.Net.Messaging
+namespace Storage.NetCore.Messaging
 {
    /// <summary>
    /// Messenger interface

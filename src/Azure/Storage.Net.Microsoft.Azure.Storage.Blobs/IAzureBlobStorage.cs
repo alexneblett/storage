@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
-using Storage.Net.Blobs;
+using Storage.NetCore.Blobs;
 
-namespace Storage.Net.Microsoft.Azure.Storage.Blobs
+namespace Storage.NetCore.Microsoft.Azure.Storage.Blobs
 {
 
    /// <summary>

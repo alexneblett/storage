@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
-namespace Storage.Net
+namespace Storage.NetCore
 {
    /// <summary>
    /// Storage Path utilities

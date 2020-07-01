@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace Storage.Net
+namespace Storage.NetCore
 {
    /// <summary>
    /// Transaction manager for storages supporting transactional operations, to be moved to the core later

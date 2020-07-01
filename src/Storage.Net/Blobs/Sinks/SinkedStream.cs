@@ -7,7 +7,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.IO;
 
-namespace Storage.Net.Blobs.Sinks
+namespace Storage.NetCore.Blobs.Sinks
 {
    class SinkedStream : Stream
    {

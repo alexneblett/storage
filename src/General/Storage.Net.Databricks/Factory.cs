@@ -1,8 +1,6 @@
-﻿using System;
-using Storage.Net.Blobs;
-using Storage.Net.Databricks;
+﻿using Storage.NetCore.Blobs;
 
-namespace Storage.Net
+namespace Storage.NetCore.Databricks
 {
    /// <summary>
    /// Library Factory

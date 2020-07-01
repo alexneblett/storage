@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -7,9 +6,9 @@ using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Azure.Databricks.Client;
 using Newtonsoft.Json;
-using Storage.Net.Blobs;
+using Storage.NetCore.Blobs;
 
-namespace Storage.Net.Databricks
+namespace Storage.NetCore.Databricks
 {
    class JobsStorage : GenericBlobStorage
    {

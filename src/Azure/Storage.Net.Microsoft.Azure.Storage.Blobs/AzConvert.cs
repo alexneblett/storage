@@ -6,10 +6,10 @@ using Azure;
 using Azure.Storage.Blobs;
 using Azure.Storage.Blobs.Models;
 using NetBox.Extensions;
-using Storage.Net.Blobs;
-using Storage.Net.Microsoft.Azure.Storage.Blobs.Gen2.Model;
+using Storage.NetCore.Blobs;
+using Storage.NetCore.Microsoft.Azure.Storage.Blobs.Gen2.Model;
 
-namespace Storage.Net.Microsoft.Azure.Storage.Blobs
+namespace Storage.NetCore.Microsoft.Azure.Storage.Blobs
 {
    static class AzConvert
    {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using NetBox.Extensions;
 
-namespace Storage.Net.ConnectionString
+namespace Storage.NetCore.ConnectionString
 {
    /// <summary>
    /// Holds a parsed connection string to the storage

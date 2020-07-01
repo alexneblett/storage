@@ -1,11 +1,11 @@
 ﻿using Microsoft.ServiceFabric.Data;
-using Storage.Net.Blobs;
-using Storage.Net.Messaging;
-using Storage.Net.Microsoft.ServiceFabric.Blobs;
-using Storage.Net.Microsoft.ServiceFabric.Messaging;
+using Storage.NetCore.Blobs;
+using Storage.NetCore.Messaging;
+using Storage.NetCore.Microsoft.ServiceFabric.Blobs;
+using Storage.NetCore.Microsoft.ServiceFabric.Messaging;
 using System;
 
-namespace Storage.Net
+namespace Storage.NetCore
 {
    public static class Factory
    {

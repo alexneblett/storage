@@ -2,15 +2,15 @@
 using Microsoft.ServiceFabric.Data.Collections;
 using NetBox;
 using NetBox.Extensions;
-using Storage.Net.Blobs;
-using Storage.Net.Streaming;
+using Storage.NetCore.Blobs;
+using Storage.NetCore.Streaming;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Storage.Net.Microsoft.ServiceFabric.Blobs
+namespace Storage.NetCore.Microsoft.ServiceFabric.Blobs
 {
    class ServiceFabricReliableDictionaryBlobStorageProvider : IBlobStorage
    {
@@ -24,11 +24,11 @@ namespace Storage.Net.Microsoft.ServiceFabric.Blobs
          _collectionName = collectionName ?? throw new ArgumentNullException(nameof(collectionName));
       }
 
-      public async Task<IReadOnlyCollection<Blob>> ListAsync(ListOptions options, CancellationToken cancellationToken)
+      public async Task<IReadOnlyCollection<NetCore.Blobs.Blob>> ListAsync(ListOptions options, CancellationToken cancellationToken)
       {
          if (options == null) options = new ListOptions();
 
-         var result = new List<Blob>();
+         var result = new List<NetCore.Blobs.Blob>();
 
          using (ServiceFabricTransaction tx = GetTransaction())
          {
@@ -45,7 +45,7 @@ namespace Storage.Net.Microsoft.ServiceFabric.Blobs
 
                   if (options.FilePrefix == null || current.Key.StartsWith(options.FilePrefix))
                   {
-                     result.Add(new Blob(current.Key, BlobItemKind.File));
+                     result.Add(new NetCore.Blobs.Blob(current.Key, BlobItemKind.File));
                   }
                }
             }
@@ -69,7 +69,7 @@ namespace Storage.Net.Microsoft.ServiceFabric.Blobs
          }
       }
 
-      private async Task WriteAsync(Blob blob, Stream sourceStream, CancellationToken cancellationToken)
+      private async Task WriteAsync(NetCore.Blobs.Blob blob, Stream sourceStream, CancellationToken cancellationToken)
       {
          string fullPath = ToFullPath(blob);
 
@@ -173,11 +173,11 @@ namespace Storage.Net.Microsoft.ServiceFabric.Blobs
          return result;
       }
 
-      public async Task<IReadOnlyCollection<Blob>> GetBlobsAsync(IEnumerable<string> fullPaths, CancellationToken cancellationToken)
+      public async Task<IReadOnlyCollection<NetCore.Blobs.Blob>> GetBlobsAsync(IEnumerable<string> fullPaths, CancellationToken cancellationToken)
       {
          GenericValidation.CheckBlobFullPaths(fullPaths);
 
-         var result = new List<Blob>();
+         var result = new List<NetCore.Blobs.Blob>();
 
          using (ServiceFabricTransaction tx = GetTransaction())
          {
@@ -193,7 +193,7 @@ namespace Storage.Net.Microsoft.ServiceFabric.Blobs
                }
                else
                {
-                  var meta = new Blob(fullPath)
+                  var meta = new NetCore.Blobs.Blob(fullPath)
                   {
                      Size = value.Value.Length
                   };
@@ -204,7 +204,7 @@ namespace Storage.Net.Microsoft.ServiceFabric.Blobs
          return result;
       }
 
-      public Task SetBlobsAsync(IEnumerable<Blob> blobs, CancellationToken cancellationToken = default)
+      public Task SetBlobsAsync(IEnumerable<NetCore.Blobs.Blob> blobs, CancellationToken cancellationToken = default)
       {
          throw new NotSupportedException();
       }

@@ -1,10 +1,10 @@
-﻿using Storage.Net.Messaging;
+﻿using Storage.NetCore.Messaging;
 using System;
 using Config.Net;
 using System.IO;
 using System.Reflection;
 
-namespace Storage.Net.Tests.Integration.Messaging
+namespace Storage.NetCore.Tests.Integration.Messaging
 {
    public abstract class MessagingFixture : IDisposable
    {

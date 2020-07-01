@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
-using Storage.Net.Blobs;
+using Storage.NetCore.Blobs;
 
-namespace Storage.Net.Microsoft.Azure.DataLake.Store.Gen1
+namespace Storage.NetCore.Microsoft.Azure.DataLake.Store.Gen1
 {
    /// <summary>
    /// Gen 1 specific API

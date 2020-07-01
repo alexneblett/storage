@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using Storage.Net.Blobs;
+using Storage.NetCore.Blobs;
 
-namespace Storage.Net
+namespace Storage.NetCore
 {
    /// <summary>
    /// A collection of generic library wise validations

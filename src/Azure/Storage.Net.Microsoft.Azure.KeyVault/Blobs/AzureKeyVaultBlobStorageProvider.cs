@@ -10,12 +10,12 @@ using System.Text.RegularExpressions;
 using NetBox.Extensions;
 using NetBox;
 using System.Net;
-using Storage.Net.Blobs;
+using Storage.NetCore.Blobs;
 using Azure.Security.KeyVault.Secrets;
 using Azure.Core;
 using Azure;
 
-namespace Storage.Net.Microsoft.Azure.KeyVault.Blobs
+namespace Storage.NetCore.Microsoft.Azure.KeyVault.Blobs
 {
    class AzureKeyVaultBlobStorageProvider : IBlobStorage
    {

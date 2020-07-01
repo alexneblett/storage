@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Config.Net;
-using Storage.Net.Messaging;
-using Storage.Net.Tests;
+using Storage.NetCore.Messaging;
+using Storage.NetCore.Tests;
 
-namespace Storage.Net.ConsoleRunner
+namespace Storage.NetCore.ConsoleRunner
 {
    class Program
    {

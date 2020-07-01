@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using NetBox;
 using NetBox.Extensions;
 
-namespace Storage.Net.Blobs
+namespace Storage.NetCore.Blobs
 {
    /// <summary>
    /// Blob storage on steroids. Takes in <see cref="IBlobStorage"/> and adds a lot of extra useful operations on top we as

@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace Storage.Net.Blobs.Sinks
+namespace Storage.NetCore.Blobs.Sinks
 {
    /// <summary>
    /// Data transformation sink that can transform both read and write streams on <see cref="IBlobStorage"/>

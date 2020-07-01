@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Storage.Net.Blobs;
+﻿using Storage.NetCore.Blobs;
 using FileInfo = Microsoft.Azure.Databricks.Client.FileInfo;
 
-namespace Storage.Net.Databricks
+namespace Storage.NetCore.Databricks
 {
    static class DConvert
    {

@@ -1,7 +1,6 @@
-﻿using System;
-using Xunit;
+﻿using Xunit;
 
-namespace Storage.Net.Tests.Core
+namespace Storage.NetCore.Tests.Core
 {
    public class StoragePathTest
    {

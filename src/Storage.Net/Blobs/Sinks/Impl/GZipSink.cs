@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using System.IO.Compression;
 
-namespace Storage.Net.Blobs.Sinks.Impl
+namespace Storage.NetCore.Blobs.Sinks.Impl
 {
    /// <summary>
    /// GZip transformation sink

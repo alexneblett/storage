@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Threading.Tasks;
 using Microsoft.Azure.ServiceBus;
-using Storage.Net.Messaging;
-using Storage.Net.Microsoft.Azure.ServiceBus;
-using Storage.Net.Microsoft.Azure.ServiceBus.Messaging;
+using Storage.NetCore.Messaging;
+using Storage.NetCore.Microsoft.Azure.ServiceBus;
+using Storage.NetCore.Microsoft.Azure.ServiceBus.Messaging;
 
-namespace Storage.Net
+namespace Storage.NetCore
 {
    /// <summary>
    /// Factory class that implement factory methods for Microsoft Azure implememtations

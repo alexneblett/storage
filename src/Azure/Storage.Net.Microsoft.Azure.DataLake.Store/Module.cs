@@ -1,9 +1,9 @@
-﻿using Storage.Net.Blobs;
-using Storage.Net.ConnectionString;
-using Storage.Net.Messaging;
-using Storage.Net.Microsoft.Azure.DataLake.Store.Gen1;
+﻿using Storage.NetCore.Blobs;
+using Storage.NetCore.ConnectionString;
+using Storage.NetCore.Messaging;
+using Storage.NetCore.Microsoft.Azure.DataLake.Store.Gen1;
 
-namespace Storage.Net.Microsoft.Azure.DataLake.Store
+namespace Storage.NetCore.Microsoft.Azure.DataLake.Store
 {
    class Module : IExternalModule, IConnectionFactory
    {

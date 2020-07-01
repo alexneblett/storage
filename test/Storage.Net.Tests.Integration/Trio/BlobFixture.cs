@@ -5,9 +5,9 @@ using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 using Config.Net;
-using Storage.Net.Blobs;
+using Storage.NetCore.Blobs;
 
-namespace Storage.Net.Tests.Integration.Blobs
+namespace Storage.NetCore.Tests.Integration.Trio
 {
    public abstract class BlobFixture : IDisposable
    {

@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Net;
 using FluentFTP;
-using Storage.Net.Blobs;
-using Storage.Net.ConnectionString;
-using Storage.Net.Ftp;
+using Storage.NetCore.Blobs;
+using Storage.NetCore.ConnectionString;
+using Storage.NetCore.Ftp;
 
-namespace Storage.Net
+namespace Storage.NetCore
 {
    public static class Factory
    {

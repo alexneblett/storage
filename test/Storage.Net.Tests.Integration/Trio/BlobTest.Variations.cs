@@ -1,9 +1,9 @@
 ﻿using System.IO;
 using System.Net;
-using Storage.Net.Blobs;
+using Storage.NetCore.Blobs;
 using Xunit;
 
-namespace Storage.Net.Tests.Integration.Blobs
+namespace Storage.NetCore.Tests.Integration.Trio
 {
    public class AzureBlobStorageFixture : BlobFixture
    {

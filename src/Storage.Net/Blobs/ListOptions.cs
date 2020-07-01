@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using NetBox.Extensions;
 
-namespace Storage.Net.Blobs
+namespace Storage.NetCore.Blobs
 {
    /// <summary>
    /// Options for listing storage content

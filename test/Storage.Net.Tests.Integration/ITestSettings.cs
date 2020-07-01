@@ -2,7 +2,7 @@
 using System.Net;
 using Config.Net;
 
-namespace Storage.Net.Tests
+namespace Storage.NetCore.Tests
 {
    public interface ITestSettings
    {

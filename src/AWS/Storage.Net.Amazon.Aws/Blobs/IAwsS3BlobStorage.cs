@@ -1,8 +1,8 @@
 ﻿using System.Threading.Tasks;
 using Amazon.S3;
-using Storage.Net.Blobs;
+using Storage.NetCore.Blobs;
 
-namespace Storage.Net.Amazon.Aws.Blobs
+namespace Storage.NetCore.Amazon.Aws.Blobs
 {
    /// <summary>
    /// Provides access to native operations

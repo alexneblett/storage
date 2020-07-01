@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
    <PropertyGroup>
-      <TargetFramework>netcoreapp2.1</TargetFramework>
+      <TargetFramework>netcoreapp3.1</TargetFramework>
       <LangVersion>latest</LangVersion>
       <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
       <WarningsAsErrors />
@@ -9,13 +9,13 @@
 
    <ItemGroup>
       <PackageReference Include="xunit" Version="2.4.1" />
-      <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1">
+      <PackageReference Include="xunit.runner.visualstudio" Version="2.4.2">
          <PrivateAssets>all</PrivateAssets>
          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>
       <DotNetCliToolReference Include="dotnet-xunit" Version="2.3.1" />
       <PackageReference Include="LogMagic" Version="2.17.5" />
-      <PackageReference Include="Config.Net" Version="4.14.20" />
+      <PackageReference Include="Config.Net" Version="4.14.23" />
       <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
    </ItemGroup>
 
@@ -27,11 +27,11 @@
     <ProjectReference Include="..\..\src\Azure\Storage.Net.Microsoft.Azure.ServiceBus\ServiceBus.csproj" />
     <ProjectReference Include="..\..\src\Azure\Storage.Net.Microsoft.Azure.Storage.Blobs\Blobs.csproj" />
     <ProjectReference Include="..\..\src\Azure\Storage.Net.Microsoft.Azure.Storage.Files\Files.csproj" />
-    <ProjectReference Include="..\..\src\GCP\Storage.Net.Gcp.CloudStorage\Storage.Net.Gcp.CloudStorage.csproj" />
+    <ProjectReference Include="..\..\src\GCP\Storage.Net.Gcp.CloudStorage\Storage.NetCore.Gcp.CloudStorage.csproj" />
     <ProjectReference Include="..\..\src\General\Storage.Net.Databricks\Databricks.csproj" />
-    <ProjectReference Include="..\..\src\General\Storage.Net.Ftp\Storage.Net.Ftp.csproj" />
-    <ProjectReference Include="..\..\src\Storage.Net\Storage.Net.csproj" />
-    <ProjectReference Include="..\..\src\AWS\Storage.Net.Amazon.Aws\Storage.Net.Amazon.Aws.csproj" />
+    <ProjectReference Include="..\..\src\General\Storage.Net.Ftp\Storage.NetCore.Ftp.csproj" />
+    <ProjectReference Include="..\..\src\Storage.Net\Storage.NetCore.csproj" />
+    <ProjectReference Include="..\..\src\AWS\Storage.Net.Amazon.Aws\Storage.NetCore.Amazon.Aws.csproj" />
   </ItemGroup>
 
 </Project>

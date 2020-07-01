@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\AWS\Storage.Net.Amazon.Aws\Storage.NetCore.Amazon.Aws.csproj" />
+    <ProjectReference Include="..\..\src\Azure\Storage.Net.Microsoft.Azure.EventHub\EventHub.csproj" />
+    <ProjectReference Include="..\Storage.Net.Tests.Integration\Storage.NetCore.Tests.Integration.csproj" />
+  </ItemGroup>
+
+</Project>

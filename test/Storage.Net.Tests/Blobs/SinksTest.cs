@@ -1,9 +1,9 @@
 ﻿using System.Threading.Tasks;
-using Storage.Net.Blobs;
-using Storage.Net.Blobs.Sinks.Impl;
+using Storage.NetCore.Blobs;
+using Storage.NetCore.Blobs.Sinks.Impl;
 using Xunit;
 
-namespace Storage.Net.Tests.Blobs.Sink
+namespace Storage.NetCore.Tests.Blobs.Sink
 {
    public class GzipSinkTest : SinksTest
    {

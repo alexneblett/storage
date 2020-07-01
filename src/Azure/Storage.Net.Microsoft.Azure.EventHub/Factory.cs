@@ -1,7 +1,7 @@
-﻿using Storage.Net.Messaging;
-using Storage.Net.Microsoft.Azure.EventHub;
+﻿using Storage.NetCore.Messaging;
+using Storage.NetCore.Microsoft.Azure.EventHub;
 
-namespace Storage.Net
+namespace Storage.NetCore
 {
    /// <summary>
    /// Factory class that implement factory methods for Microsoft Azure implememtations

@@ -1,8 +1,8 @@
-﻿using Storage.Net.Blobs;
-using Storage.Net.ConnectionString;
-using Storage.Net.Microsoft.Azure.Storage.Files;
+﻿using Storage.NetCore.Blobs;
+using Storage.NetCore.ConnectionString;
+using Storage.NetCore.Microsoft.Azure.Storage.Files;
 
-namespace Storage.Net
+namespace Storage.NetCore
 {
    /// <summary>
    /// Factory

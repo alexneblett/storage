@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 using Azure.Storage.Blobs;
 using Azure.Storage.Blobs.Models;
 using NetBox.Async;
-using Storage.Net.Blobs;
+using Storage.NetCore.Blobs;
 
-namespace Storage.Net.Microsoft.Azure.Storage.Blobs
+namespace Storage.NetCore.Microsoft.Azure.Storage.Blobs
 {
    class AzureContainerBrowser : IDisposable
    {

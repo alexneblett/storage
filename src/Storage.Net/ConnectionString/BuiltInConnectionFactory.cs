@@ -1,9 +1,9 @@
-﻿using Storage.Net.Blobs;
-using Storage.Net.Blobs.Files;
-using Storage.Net.Messaging;
-using Storage.Net.Messaging.Files;
+﻿using Storage.NetCore.Blobs;
+using Storage.NetCore.Blobs.Files;
+using Storage.NetCore.Messaging;
+using Storage.NetCore.Messaging.Files;
 
-namespace Storage.Net.ConnectionString
+namespace Storage.NetCore.ConnectionString
 {
    class BuiltInConnectionFactory : IConnectionFactory
    {

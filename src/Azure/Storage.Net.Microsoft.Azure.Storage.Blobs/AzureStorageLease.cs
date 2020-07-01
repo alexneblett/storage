@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Azure;
 using Azure.Storage.Blobs.Specialized;
 
-namespace Storage.Net.Microsoft.Azure.Storage.Blobs
+namespace Storage.NetCore.Microsoft.Azure.Storage.Blobs
 {
    /// <summary>
    /// Represents a blob lease

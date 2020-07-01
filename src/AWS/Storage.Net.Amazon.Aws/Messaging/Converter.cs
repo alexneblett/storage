@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 using Amazon.SQS.Model;
-using Storage.Net.Messaging;
+using Storage.NetCore.Messaging;
 
-namespace Storage.Net.Amazon.Aws.Messaging
+namespace Storage.NetCore.Amazon.Aws.Messaging
 {
    static class Converter
    {

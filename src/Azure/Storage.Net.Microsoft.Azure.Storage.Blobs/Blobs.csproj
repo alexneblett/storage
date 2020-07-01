@@ -1,14 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
      <LangVersion>latest</LangVersion>
-     <PackageId>Storage.Net.Microsoft.Azure.Storage.Blobs</PackageId>
+     <PackageId>Storage.NetCore.Microsoft.Azure.Storage.Blobs</PackageId>
      <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
      <WarningsAsErrors />
      <GenerateDocumentationFile>true</GenerateDocumentationFile>
-     <RootNamespace>Storage.Net.Microsoft.Azure.Storage.Blobs</RootNamespace>
-     <AssemblyName>Storage.Net.Microsoft.Azure.Storage.Blobs</AssemblyName>
+     <RootNamespace>Storage.NetCore.Microsoft.Azure.Storage.Blobs</RootNamespace>
+     <AssemblyName>Storage.NetCore.Microsoft.Azure.Storage.Blobs</AssemblyName>
      <Description>Support for Azure blob storage.</Description>
   </PropertyGroup>
 
@@ -18,13 +18,13 @@
 
 
    <ItemGroup>
-    <PackageReference Include="Azure.Identity" Version="1.1.0" />
-    <PackageReference Include="Azure.Storage.Blobs" Version="12.1.0" />
-    <PackageReference Include="System.Text.Json" Version="4.7.0" />
+    <PackageReference Include="Azure.Identity" Version="1.1.1" />
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.4.4" />
+    <PackageReference Include="System.Text.Json" Version="4.7.2" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Storage.Net\Storage.Net.csproj" />
+    <ProjectReference Include="..\..\Storage.Net\Storage.NetCore.csproj" />
   </ItemGroup>
 
 </Project>

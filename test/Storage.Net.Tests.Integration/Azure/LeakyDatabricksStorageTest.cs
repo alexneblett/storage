@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Azure.Databricks.Client;
-using Storage.Net.Blobs;
-using Storage.Net.Databricks;
+using Storage.NetCore.Blobs;
+using Storage.NetCore.Databricks;
 using Xunit;
 
-namespace Storage.Net.Tests.Integration.Azure
+namespace Storage.NetCore.Tests.Integration.Azure
 {
 #if DEBUG
    [Trait("Category", "Blobs")]

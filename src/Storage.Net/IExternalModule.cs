@@ -1,6 +1,6 @@
-﻿using Storage.Net.ConnectionString;
+﻿using Storage.NetCore.ConnectionString;
 
-namespace Storage.Net
+namespace Storage.NetCore
 {
    /// <summary>
    /// An entry point for implementing initialisation of an external module

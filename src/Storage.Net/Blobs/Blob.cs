@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace Storage.Net.Blobs
+namespace Storage.NetCore.Blobs
 {
    /// <summary>
    /// Blob item description

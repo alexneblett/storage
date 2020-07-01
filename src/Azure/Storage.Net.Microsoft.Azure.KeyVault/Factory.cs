@@ -1,12 +1,12 @@
 ﻿using Azure.Core;
 using Azure.Identity;
-using Storage.Net.Blobs;
-using Storage.Net.Microsoft.Azure.KeyVault;
-using Storage.Net.Microsoft.Azure.KeyVault.Blobs;
+using Storage.NetCore.Blobs;
+using Storage.NetCore.Microsoft.Azure.KeyVault;
+using Storage.NetCore.Microsoft.Azure.KeyVault.Blobs;
 using System;
 using System.Net;
 
-namespace Storage.Net
+namespace Storage.NetCore
 {
    public static class Factory
    {

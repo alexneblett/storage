@@ -2,7 +2,7 @@
 using System.IO;
 using System.Threading.Tasks;
 
-namespace Storage.Net.Streaming
+namespace Storage.NetCore.Streaming
 {
    /// <summary>
    /// Fixes deficiencies in thrird party streaming impelmentations

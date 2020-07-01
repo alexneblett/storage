@@ -1,8 +1,8 @@
-﻿using Storage.Net.Blobs;
-using Storage.Net.ConnectionString;
-using Storage.Net.Messaging;
+﻿using Storage.NetCore.Blobs;
+using Storage.NetCore.ConnectionString;
+using Storage.NetCore.Messaging;
 
-namespace Storage.Net.Microsoft.Azure.Queues
+namespace Storage.NetCore.Microsoft.Azure.Queues
 {
    class Module : IExternalModule, IConnectionFactory
    {

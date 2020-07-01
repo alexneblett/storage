@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics.Tracing;
 
-namespace Storage.Net
+namespace Storage.NetCore
 {
    /// <summary>
    /// Internal logger

@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.Azure.DataLake.Store.RetryPolicies;
 
-
 namespace Microsoft.Azure.DataLake.Store
 {
    /// <summary>

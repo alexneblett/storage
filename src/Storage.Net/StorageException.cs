@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Storage.Net
+namespace Storage.NetCore
 {
    /// <summary>
    /// Generic storage exception

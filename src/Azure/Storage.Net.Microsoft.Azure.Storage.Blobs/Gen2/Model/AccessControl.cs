@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Text;
 
-namespace Storage.Net.Microsoft.Azure.Storage.Blobs.Gen2.Model
+namespace Storage.NetCore.Microsoft.Azure.Storage.Blobs.Gen2.Model
 {
    /// <summary>
    /// Access control description for Azure Data Lake Gen 2 objects.

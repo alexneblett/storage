@@ -1,7 +1,7 @@
 ﻿using Microsoft.Azure.ServiceBus;
 using Microsoft.Azure.ServiceBus.Core;
 
-namespace Storage.Net.Microsoft.Azure.ServiceBus.Messaging
+namespace Storage.NetCore.Microsoft.Azure.ServiceBus.Messaging
 {
    /// <summary>
    /// Implements message receiver on Azure Service Bus Queues

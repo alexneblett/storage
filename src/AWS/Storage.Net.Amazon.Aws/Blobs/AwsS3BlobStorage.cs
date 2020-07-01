@@ -1,4 +1,4 @@
-﻿using Storage.Net.Blobs;
+﻿using Storage.NetCore.Blobs;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -10,11 +10,11 @@ using Amazon.S3.Model;
 using Amazon.S3.Transfer;
 using System.Threading.Tasks;
 using System.Threading;
-using Storage.Net.Streaming;
+using Storage.NetCore.Streaming;
 using NetBox.Extensions;
 using System.Net;
 
-namespace Storage.Net.Amazon.Aws.Blobs
+namespace Storage.NetCore.Amazon.Aws.Blobs
 {
    /// <summary>
    /// Amazon S3 storage adapter for blobs
