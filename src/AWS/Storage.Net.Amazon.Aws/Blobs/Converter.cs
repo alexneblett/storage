@@ -36,7 +36,7 @@ namespace Storage.NetCore.Amazon.Aws.Blobs
             request.Metadata[pair.Key] = pair.Value;
          }
 
-         await client.CopyObjectAsync(request);
+         await client.CopyObjectAsync(request).ConfigureAwait(false);
       }
 
       private static async Task AppendMetadataAsync(AmazonS3Client client, string bucketName, Blob blob, CancellationToken cancellationToken)
