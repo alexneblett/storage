@@ -25,7 +25,7 @@ namespace Storage.NetCore.Databricks
       {
          try
          {
-            await _api.CreateScope(name, initialManagePrincipal).ConfigureAwait(false);
+            await _api.CreateDatabricksBackedScope(name, initialManagePrincipal).ConfigureAwait(false);
          }
          catch(ClientApiException ex) when(ex.StatusCode == HttpStatusCode.BadRequest)
          {
@@ -62,7 +62,7 @@ namespace Storage.NetCore.Databricks
          // listing from "/secrets/[scope name]
 
          string scopeName = StoragePath.Split(path)[0];
-         List<SecretMetadata> secretNames = (await _api.ListSecrets(scopeName).ConfigureAwait(false)).ToList();
+         var secretNames = (await _api.ListSecrets(scopeName).ConfigureAwait(false)).ToList();
          foreach(SecretMetadata sm in secretNames)
          {
             var sb = new Blob(scopeName, sm.Key, BlobItemKind.File);

@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
     <AssemblyName>Storage.NetCore.Microsoft.Azure.Storage.Files</AssemblyName>
     <RootNamespace>Storage.NetCore.Microsoft.Azure.Storage.Files</RootNamespace>
      <LangVersion>latest</LangVersion>
@@ -17,7 +17,7 @@
 
 
    <ItemGroup>
-      <PackageReference Include="Microsoft.Azure.Storage.File" Version="11.1.7" />
+      <PackageReference Include="Microsoft.Azure.Storage.File" Version="11.2.2" />
    </ItemGroup>
 
    <ItemGroup>

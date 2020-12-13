@@ -2,11 +2,11 @@
    <PropertyGroup>
       <Copyright>Copyright (c) 2015-2017 by Ivan Gavryliuk</Copyright>
       <AssemblyTitle>Storage.Net.Amazon.Aws</AssemblyTitle>
-      <TargetFrameworks>netcoreapp3.1</TargetFrameworks>
+      <TargetFrameworks>net5.0</TargetFrameworks>
       <GenerateDocumentationFile>true</GenerateDocumentationFile>
       <AssemblyName>Storage.NetCore.Amazon.Aws</AssemblyName>
       <PackageId>Storage.NetCore.Amazon.Aws</PackageId>
-      <PackageIconUrl>http://i.isolineltd.com/nuget/storage.png</PackageIconUrl>
+      <PackageIconUrl></PackageIconUrl>
       <PackageProjectUrl>https://github.com/aloneguid/storage</PackageProjectUrl>
       <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
       <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
@@ -16,22 +16,23 @@
       <AssemblyVersion>4.0.0.0</AssemblyVersion>
       <RepositoryUrl>https://github.com/aloneguid/storage</RepositoryUrl>
       <Authors>Ivan Gavryliuk (@aloneguid)</Authors>
-      <PackageLicenseUrl>https://github.com/aloneguid/storage/blob/master/LICENSE</PackageLicenseUrl>
+      <PackageLicenseUrl></PackageLicenseUrl>
       <RepositoryType>GitHub</RepositoryType>
       <Description>Extension to Storage.NetCore providing integration with Amazon S3 blobs.</Description>
       <LangVersion>latest</LangVersion>
       <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
       <WarningsAsErrors />
       <RootNamespace>Storage.NetCore.Amazon.Aws</RootNamespace>
+      <PackageIcon></PackageIcon>
    </PropertyGroup>
    <PropertyGroup Condition="'$(Configuration)' == 'Release'">
       <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
    </PropertyGroup>
    <ItemGroup>
-      <PackageReference Include="AWSSDK.Core" Version="3.3.107.19" />
-      <PackageReference Include="AWSSDK.S3" Version="3.3.111.20" />
-      <PackageReference Include="AWSSDK.SecurityToken" Version="3.3.105.23" />
-      <PackageReference Include="AWSSDK.SQS" Version="3.3.103.6" />
+      <PackageReference Include="AWSSDK.Core" Version="3.5.1.48" />
+      <PackageReference Include="AWSSDK.S3" Version="3.5.6.4" />
+      <PackageReference Include="AWSSDK.SecurityToken" Version="3.5.1.28" />
+      <PackageReference Include="AWSSDK.SQS" Version="3.5.0.48" />
    </ItemGroup>
    <ItemGroup>
       <ProjectReference Include="..\..\Storage.Net\Storage.NetCore.csproj" />

@@ -1,11 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Azure.Databricks.Client;
-using Newtonsoft.Json;
 using Storage.NetCore.Blobs;
 
 namespace Storage.NetCore.Databricks
@@ -35,7 +35,7 @@ namespace Storage.NetCore.Databricks
          string jobName = StoragePath.Split(path)[0];
          long? jobId = await GetJobIdFromJobNameAsync(jobName).ConfigureAwait(false);
          IReadOnlyCollection<Run> allRuns = await GetAllJobRunsAsync(jobId.Value).ConfigureAwait(false);
-         List<Blob> rr = allRuns.Select(r => ToBlob(jobName, r)).ToList();
+         var rr = allRuns.Select(r => ToBlob(jobName, r)).ToList();
          rr.Reverse();
          return rr;
       }
@@ -48,7 +48,7 @@ namespace Storage.NetCore.Databricks
          do
          {
             runsList = await _jobs.RunsList(jobId, offset, 500, false, false).ConfigureAwait(false);
-            List<Run> runs = runsList.Runs.ToList();
+            var runs = runsList.Runs.ToList();
             offset += runs.Count;
             result.AddRange(runs);
          }
@@ -68,10 +68,8 @@ namespace Storage.NetCore.Databricks
             if(long.TryParse(parts[1], out long runId))
             {
                IEnumerable<ViewItem> exportedViews = await _jobs.RunsExport(runId, ViewsToExport.ALL).ConfigureAwait(false);
-               if(exportedViews == null)
-                  return null;
 
-               ViewItem exportedView = exportedViews.FirstOrDefault();
+               ViewItem exportedView = exportedViews?.FirstOrDefault();
 
                return exportedView?.Content == null
                   ? null

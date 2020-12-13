@@ -33,7 +33,7 @@ namespace Storage.NetCore.Tests.Integration.Trio
          {
             if(_testDir == null)
             {
-               string buildDir = new FileInfo(new Uri(Assembly.GetExecutingAssembly().CodeBase).LocalPath).Directory.FullName;
+               string buildDir = new FileInfo(new Uri(Assembly.GetExecutingAssembly().Location).LocalPath).Directory.FullName;
                _testDir = Path.Combine(buildDir, "TEST-" + Guid.NewGuid());
             }
 

@@ -61,8 +61,7 @@ namespace Storage.NetCore.Tests.Integration
       {
          get
          {
-            return _buildDir ??
-                   (_buildDir = new FileInfo(new Uri(Assembly.GetExecutingAssembly().CodeBase).LocalPath).Directory);
+            return _buildDir ??= new FileInfo(new Uri(Assembly.GetExecutingAssembly().Location).LocalPath).Directory;
          }
       }
 
@@ -102,7 +101,7 @@ namespace Storage.NetCore.Tests.Integration
          Type testClassType = testMethod.DeclaringType;
          if (testClassType == null) throw new ApplicationException("cannot get test class");
 
-         return string.Format("{0}.{1}", testClassType.Namespace, testMethodName);
+         return $"{testClassType.Namespace}.{testMethodName}";
       }
 
       public virtual void Dispose()

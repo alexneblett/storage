@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
     <AssemblyName>Storage.NetCore.Microsoft.Azure.Queues</AssemblyName>
   </PropertyGroup>
 
@@ -15,7 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Storage.Net\Storage.NetCore.csproj" />
-     <PackageReference Include="Microsoft.Azure.Storage.Queue" Version="11.1.7" />
+     <PackageReference Include="Microsoft.Azure.Storage.Queue" Version="11.2.2" />
   </ItemGroup>
 
 </Project>

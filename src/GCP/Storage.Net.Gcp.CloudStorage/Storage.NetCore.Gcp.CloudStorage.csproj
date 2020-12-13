@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
      <Description>Extension to Storage.Net providing integration with Google Cloud Storage</Description>
      <LangVersion>latest</LangVersion>
      <GenerateDocumentationFile>true</GenerateDocumentationFile>
@@ -14,8 +14,8 @@
    </PropertyGroup>
 
    <ItemGroup>
-    <PackageReference Include="Google.Cloud.Storage.V1" Version="3.1.0" />
-    <PackageReference Include="NetBox" Version="2.4.0" />
+    <PackageReference Include="Google.Cloud.Storage.V1" Version="3.3.0" />
+    <PackageReference Include="NetBox" Version="2.5.1" />
   </ItemGroup>
 
   <ItemGroup>

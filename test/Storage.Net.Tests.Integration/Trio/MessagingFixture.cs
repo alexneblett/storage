@@ -1,6 +1,5 @@
 ﻿using Storage.NetCore.Messaging;
 using System;
-using Config.Net;
 using System.IO;
 using System.Reflection;
 
@@ -16,7 +15,7 @@ namespace Storage.NetCore.Tests.Integration.Messaging
       protected MessagingFixture()
       {
          _fixtureName = GetType().Name;
-         string buildDir = new FileInfo(new Uri(Assembly.GetExecutingAssembly().CodeBase).LocalPath).Directory.FullName;
+         string buildDir = new FileInfo(new Uri(Assembly.GetExecutingAssembly().Location).LocalPath).Directory.FullName;
          _testDir = Path.Combine(buildDir, "msg-" + Guid.NewGuid());
          Directory.CreateDirectory(_testDir);
 
