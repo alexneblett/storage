@@ -10,6 +10,7 @@
      <RootNamespace>Storage.NetCore.Microsoft.Azure.Storage.Blobs</RootNamespace>
      <AssemblyName>Storage.NetCore.Microsoft.Azure.Storage.Blobs</AssemblyName>
      <Description>Support for Azure blob storage.</Description>
+     <Version>1.0.1</Version>
   </PropertyGroup>
 
    <PropertyGroup Condition="'$(Configuration)' == 'Release'">

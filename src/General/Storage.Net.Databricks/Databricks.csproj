@@ -10,6 +10,7 @@
      <Description>Extension to Storage.Net that provides access to various aspects of Databricks, such as DBFS, secrets, clusters, workbooks and so on. Azure and AWS are fully supported.</Description>
      <AssemblyName>Storage.NetCore.Databricks</AssemblyName>
      <RootNamespace>Storage.NetCore.Databricks</RootNamespace>
+     <Version>1.0.1</Version>
   </PropertyGroup>
 
    <PropertyGroup Condition="'$(Configuration)' == 'Release'">

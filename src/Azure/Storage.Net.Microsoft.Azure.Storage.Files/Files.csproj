@@ -9,6 +9,7 @@
      <WarningsAsErrors />
      <GenerateDocumentationFile>true</GenerateDocumentationFile>
      <Description>Azure Storage Files support in Storage.Net.</Description>
+     <Version>1.0.1</Version>
   </PropertyGroup>
 
    <PropertyGroup Condition="'$(Configuration)' == 'Release'">

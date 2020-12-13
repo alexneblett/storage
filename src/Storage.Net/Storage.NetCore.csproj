@@ -11,7 +11,7 @@
       <PackageProjectUrl>https://github.com/aloneguid/storage</PackageProjectUrl>
       <RepositoryUrl>https://github.com/aloneguid/storage</RepositoryUrl>
       <RepositoryType>GitHub</RepositoryType>
-      <Version>9.26</Version>
+      <Version>9.27</Version>
       <FileVersion>4.0.0.0</FileVersion>
       <AssemblyVersion>4.0.0.0</AssemblyVersion>
       <PackageLicenseUrl></PackageLicenseUrl>
@@ -19,7 +19,7 @@
       <LangVersion>latest</LangVersion>
       <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
       <WarningsAsErrors />
-      <PackageIcon>favicon16.png</PackageIcon>
+      <PackageIcon></PackageIcon>
    </PropertyGroup>
    <PropertyGroup Condition="'$(Configuration)' == 'Release'">
       <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
@@ -32,11 +32,5 @@
       <PackageReference Include="NetBox" Version="2.5.1" />
       <PackageReference Include="System.Threading.Thread" Version="4.3.0" />
       <PackageReference Include="System.Text.Json" Version="5.0.0" />
-   </ItemGroup>
-   <ItemGroup>
-     <None Include="..\..\..\XLinq\xCore\wwwroot\icons\favicon16.png">
-       <Pack>True</Pack>
-       <PackagePath></PackagePath>
-     </None>
    </ItemGroup>
 </Project>

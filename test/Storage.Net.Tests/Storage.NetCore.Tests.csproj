@@ -9,6 +9,7 @@
       <LangVersion>latest</LangVersion>
       <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
       <WarningsAsErrors />
+      <Version>3.5.0</Version>
    </PropertyGroup>
    <ItemGroup>
       <ProjectReference Include="..\..\src\Azure\Storage.Net.Microsoft.Azure.DataLake.Store\DataLakeGen1.csproj" />

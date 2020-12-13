@@ -8,6 +8,7 @@
       <Description>FTP bindings for Storage.Net</Description>
       <AssemblyName>Storage.NetCore.Ftp</AssemblyName>
       <RootNamespace>Storage.NetCore.Ftp</RootNamespace>
+      <Version>1.0.1</Version>
    </PropertyGroup>
 
    <ItemGroup>
